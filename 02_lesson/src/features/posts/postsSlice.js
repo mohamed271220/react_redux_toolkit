@@ -34,8 +34,10 @@ const postsSlice = createSlice({
     name: 'posts',
     initialState,
     reducers: {
+        // postsAdded has been added to the actions 
         postAdded: {
             reducer(state, action) {
+                //payload is form data
                 state.push(action.payload)
             },
             prepare(title, content, userId) {

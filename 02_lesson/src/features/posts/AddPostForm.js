@@ -1,3 +1,4 @@
+//we use useState now for temporary states
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
